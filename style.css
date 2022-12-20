@@ -20,7 +20,36 @@ body
     font-family: 'poppins', sans-serif;
 }
 
+
 /*  */
+
+/* about me */
+
+.Devang
+{
+    width: 100%;
+    height: 50px;
+    background: var(--tenne-tawny);
+    box-shadow: black;
+}
+
+.Devangbtn{
+    position:absolute;
+    top: 1.3%;
+    text-align: right;
+    right: 3%;
+    border: none;
+    text-decoration: none;
+    color: rgb(245, 239, 239);
+    background: var(--tenne-tawny);
+    font-weight: 400;
+    font-size: 1rem;
+    padding: 0.5rem 0;
+    display: inline;
+    width: 175px;
+    /* margin-top: 1rem; */
+    border-radius: 1.2rem;
+}
 .btn{
     font-family: inherit;
     cursor: pointer;
@@ -55,6 +84,7 @@ body
 .meal-search
 {
     margin: 2rem 0;
+    padding-top: 5rem;
 }
 .meal-search cite{
     font-size: 1rem;
@@ -152,6 +182,13 @@ body
      background: var(--tenne-tawny-dark) ;
 }
 
+/* footer */
+.footerdesign
+{   
+   
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
 /* meal details */
 .meal-details
 {
@@ -256,6 +293,8 @@ body
 {
     opacity: 0.8;
 }
+
+
 
 
 /*  */
