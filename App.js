@@ -2,7 +2,7 @@ const searchBtn =document.getElementById('search-btn');
 const meallist=document.getElementById('meal');
 const mealDetailsContent=document.querySelector('.meal-details-content');
 const recipeCloseBtn = document.getElementById('recipe-close-btn');
-const Devangbtn=Document.getElementByClass('Devangbtn');
+
 //for function of recipeclosebtn
 recipeCloseBtn.addEventListener('click' ,() =>{
     mealDetailsContent.parentElement.classList.remove('showRecipe');
